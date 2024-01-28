@@ -1,0 +1,46 @@
+.colorswitcher{
+    display: flex;
+    justify-content: flex-end;   
+}
+.cr{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.btn{
+    height: 10px;
+    width: 10px;
+    gap: 2rem;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+#white{
+    background-color: white;
+}
+#black{
+    background-color: black;
+}
+#green{
+    background-color: green;
+}
+#pink{
+    background-color: pink;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+.graphs{
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
